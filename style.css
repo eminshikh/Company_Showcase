@@ -7,9 +7,36 @@ body {
   width: 100%;
 }
 
-header .imgbox {
+header .menu {
+  padding: 30px 0;
+}
+header .menu .imgbox {
   width: 200px;
 }
-header nav a {
+header .menu nav a {
   color: #000000;
+  margin-left: 30px;
+}
+
+#welcome {
+  background-image: url(assets/header-bg.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+}
+#welcome h1 {
+  font-size: 30px;
+}
+#welcome h2 {
+  font-size: 70px;
+  margin: 30px 0 50px;
+}
+#welcome h1, #welcome h2 {
+  color: #ffffff;
+  font-weight: 700;
+}
+#welcome .btn {
+  background-color: #ffc800;
+  color: #ffffff;
+  padding: 15px 30px;
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */
