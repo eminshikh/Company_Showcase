@@ -3,8 +3,15 @@ body {
   font-weight: 500;
 }
 
+.imgbox {
+  overflow: hidden;
+}
 .imgbox img {
   width: 100%;
+}
+
+section {
+  padding: 60px 0;
 }
 
 header {
@@ -56,4 +63,41 @@ header .menu nav a:hover {
   background-color: #ffc800;
   padding: 20px 35px;
   font-size: 18px;
+}
+@media (max-width: 768px) {
+  #welcome h1 {
+    font-size: 25px;
+  }
+  #welcome h2 {
+    font-size: 50px;
+  }
+  #welcome h4 {
+    font-size: 13px;
+  }
+}
+
+#services {
+  text-align: center;
+}
+#services h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#services h3 {
+  font-style: italic;
+  color: #a4a4a4;
+  padding: 30px 0 50px;
+}
+#services h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+#services .icon {
+  font-size: 60px;
+  background-color: #ffc800;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 50%;
+  width: 100px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
