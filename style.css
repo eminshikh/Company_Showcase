@@ -17,6 +17,7 @@ section {
 header {
   width: 100%;
   position: fixed;
+  background-color: #212529;
 }
 header .menu {
   padding: 30px 0;
@@ -139,14 +140,6 @@ header .menu nav a:hover {
 }
 #portfolio .imgbox {
   margin-bottom: 20px;
-  position: relative;
-}
-#portfolio .imgbox span {
-  font-size: 30px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
+  max-width: 420px;
+  display: inline-block;
 }/*# sourceMappingURL=style.css.map */
