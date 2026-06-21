@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
@@ -11,7 +11,7 @@ body {
 }
 
 section {
-  padding: 60px 0;
+  padding: 96px 0;
 }
 
 header {
@@ -91,20 +91,62 @@ header .menu nav a:hover {
 #services .box {
   width: 300px;
 }
-#services h2 {
+#services .box h2 {
   font-size: 25px;
   font-weight: 700;
   padding: 20px 0;
 }
-#services h4 {
+#services .box h4 {
   color: #7e8081;
   line-height: 1.6;
 }
-#services .icon {
+#services .box .icon {
   font-size: 64px;
   background-color: #ffc800;
   color: #ffffff;
   padding: 33px 27px;
   border-radius: 50%;
   display: inline-block;
+}
+@media (max-width: 768px) {
+  #services .box {
+    width: auto;
+    margin-bottom: 20px;
+  }
+}
+
+#portfolio {
+  text-align: center;
+}
+#portfolio h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#portfolio h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+#portfolio h3 {
+  padding: 20px 0 60px;
+}
+#portfolio h4 {
+  padding: 10px 0 40px;
+}
+#portfolio h3, #portfolio h4 {
+  color: #7e8081;
+  font-style: italic;
+  font-size: 18px;
+}
+#portfolio .imgbox {
+  margin-bottom: 20px;
+  position: relative;
+}
+#portfolio .imgbox span {
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }/*# sourceMappingURL=style.css.map */
