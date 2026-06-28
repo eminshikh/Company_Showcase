@@ -166,11 +166,12 @@ header .menu nav a:hover {
 }
 #about .box {
   display: flex;
+  padding: 30px 173px;
 }
 #about .textbox {
   width: 300px;
 }
-#about .imgbox, #about h6 {
+#about .imgbox, #about .story {
   border-radius: 50%;
   border: 5px solid #e3e3e3;
   width: 170px;
@@ -178,4 +179,13 @@ header .menu nav a:hover {
 }
 #about .txt-r {
   text-align: right;
+}
+#about .story {
+  background-color: #ffc800;
+  padding: 0 36px;
+}
+#about .story h6 {
+  color: #ffffff;
+  font-size: 23px;
+  line-height: 1.2;
 }/*# sourceMappingURL=style.css.map */
